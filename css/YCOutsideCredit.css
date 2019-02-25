@@ -1,0 +1,25 @@
+body, td, textarea {
+    font: 13px arial !important;
+}
+
+li {
+    padding-bottom: 6px !important;
+	line-height: 1.35;
+}
+
+input[data-pageitemid="12333990"]{  
+    border: none;  
+    background-color: #ffffff;  
+    color: #000000;
+    padding: 0px;
+    font-style: italic;
+}
+
+input[data-pageitemid="12344993"]{  
+    border: none;  
+    background-color: #ffffff;  
+    color: #000000;
+    padding: 0px;
+    font-style: italic;
+}
+

@@ -1,0 +1,76 @@
+/* CSS template for beautiful alerts */
+/* Replace <DATA-PAGEITEMID> with the message table's data-pageitemid  */
+
+@import url('https://student-accounts.yale.edu/sites/all/themes/yalenew_base/fonts/YaleNew/YaleNew-normal-normal/yalenew-roman-webfont.eot:300,600,800');
+
+
+/* Stop Alert - red background */
+table[data-pageitemid="12331496"] 
+{  border: 1px solid #a94442;  
+   background-color: #f2dede;  
+   color: #000000;  
+   padding: 5px 5px 5px 5px;  
+   border-radius: .25rem;
+   vertical-align: middle;
+}
+   
+/* Warning Alert - yellow background */
+table[data-pageitemid="12331500"] 
+{  border: 1px solid #8a6d3b;  
+   background-color: #faf2cc;  
+   color: #000000;  
+   padding: 5px 5px 5px 5px;  
+   border-radius: .25rem;
+   vertical-align: middle;
+}
+   
+/* Success Alert - light green background */
+table[data-pageitemid="12331506"] 
+{  border: 1px solid #3c763d;  
+   background-color: #dff0d8;  
+   color: #000000;  
+   padding: 5px 5px 5px 5px;  
+   border-radius: .25rem;
+   vertical-align: middle;
+}
+
+/* Info Alert - light blue background */
+table[data-pageitemid="12331504"] 
+{  border: 1px solid #004085;  
+   background-color: #cce5ff;  
+   color: #000000;  
+   padding: 5px 5px 5px 5px;  
+   border-radius: .25rem;
+   vertical-align: middle;
+}
+
+.FormStyle {
+  color: rgb(51, 51, 51) !important; 
+  font-family: YaleNew, Georgia, "Times New Roman", serif !important; 
+  font-size: 17px !important; 
+  background-color: rgb(255, 255, 255);
+}
+
+.FormStyle td {
+  vertical-align: middle;
+  padding-right: 5px;
+  font-size: 15px !important; 
+}
+
+.FormStyle tr {
+  color: rgb(51, 51, 51) !important; 
+  font-family: YaleNew, Georgia, "Times New Roman", serif !important; 
+  font-size: 17px !important;
+}
+
+h1 {
+  font-size: 27px !important; 
+}
+
+h2 {
+  font-size: 22.5px !important; 
+}
+
+h3 {
+  font-size: 19px !important; 
+}
